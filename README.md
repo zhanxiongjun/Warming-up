@@ -1,2 +1,2 @@
 # Warming-up
-把各自Warming-up的代码上传到这里来
+命名方式为: 自己的昵称.py
