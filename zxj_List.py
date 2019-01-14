@@ -1,7 +1,5 @@
-#String1
-
+#List-1
 #1
-
 def first_last6(nums):
     if nums[0] == 6 or nums[len(nums) -1] == 6:
         return True
@@ -14,7 +12,6 @@ def same_first_last(nums):
     return False
 
 #3
-
 def make_pi():
   return [3,1,4]
 
@@ -24,18 +21,14 @@ def common_end(a, b):
         return  True
     return False
 
-
 #5
-
 def sum3(nums):
     sum = 0
     for i in nums:
         sum = sum + i
     return sum
 
-
 #6
-
 def rotate_left3(nums):
     temp = 0
     temp = nums[0]
@@ -47,7 +40,6 @@ def rotate_left3(nums):
     return nums
 
 #7
-
 def reverse3(nums):
     temp = 0
     temp = nums[0]
@@ -56,7 +48,6 @@ def reverse3(nums):
     return nums
 
 #8
-
 def max_end3(nums):
     larger = max(nums[0], nums[2])
     return [larger, larger, larger]
@@ -71,7 +62,6 @@ def sum2(nums):
 
 
 #10
-
 def middle_way(a, b):
     c = []
     c.append(a[1])
@@ -79,7 +69,6 @@ def middle_way(a, b):
     return c
 
 #11
-
 def make_ends(nums):
     a = []
     a.append(nums[0])
@@ -87,7 +76,6 @@ def make_ends(nums):
     return a
 
 #12
-
 def has23(nums):
     if 2 in nums or 3 in nums:
         return True
@@ -96,7 +84,6 @@ def has23(nums):
 
 #List-2
 #1
-
 def count_evens(nums):
     count = 0
     for i in nums:
@@ -105,14 +92,12 @@ def count_evens(nums):
     return count
 
 #2
-
 def big_diff(nums):
     biggest = max(nums)
     smallest = min(nums)
     return biggest - smallest
 
 #3
-
 def centered_average(nums):
     nums.sort()
     if len(nums) % 2 == 0:
@@ -122,7 +107,6 @@ def centered_average(nums):
 
 
 #4
-
 def sum13(nums):
     sum = 0
     i = 0
@@ -138,8 +122,6 @@ def sum13(nums):
     return sum
 
 #5
-
-
 def sum67(nums):
     i = 0
     sum = 0
@@ -159,7 +141,6 @@ def sum67(nums):
     return sum
 
 #6
-
 def has22(nums):
     i = 0
     while i < len(nums):
