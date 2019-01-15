@@ -1,5 +1,4 @@
-#logic1
-
+#logic-1
 #1
 def cigar_party(cigars, is_weekend):
     if is_weekend == True and cigars >= 40:
@@ -100,8 +99,7 @@ def near_ten(num):
         return True
     return False
 
-#logic2
-
+#logic-2
 #1
 def make_bricks(small, big, goal):
     sum = 0
